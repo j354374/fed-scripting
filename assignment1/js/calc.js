@@ -1,4 +1,4 @@
-//calc.js
+/* calc.js */
 
 console.log("Hello");
 
