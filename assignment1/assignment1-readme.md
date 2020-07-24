@@ -13,9 +13,50 @@ Stage 3:
 
 We have now added the disabled inputs that will show the number in factorial, squared and cubed.
 
+Please see the following screenshot:
+
+![stage3](readme_files/screenshot3.PNG)
+
 Here is the code (from index.html) so far:
 
 ```
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Simple Calculator</title>
+</head>
+<body>
+<header>
+</header>
+<nav></nav>
+<main>
+
+ <table style="width:100%">
+  
+ <tr>  <th>Fancy Calculator</hd></tr>
+ <td>
+ <form>
+ <label for="number">Please enter a number between 0 and 50.</label><br>
+ <input type="text" id="number" name="number"><br>
+ <button type="button">Caclulate!</button> <br>
+ <input type="text" id="factorial" name="factorial" disabled>!<br>
+ <input type="text" id="squared" name="squared" disabled>&sup2;<br>
+ <input type="text" id="cubed" name="cubed" disabled>&#xB3;<br>    
+ </form> 
+ </td>
+ </tr>
+  
+</table> 
+  
+  
+</main>
+<footer>
+<!--- Script 2.1 - template.html -->
+<!--- script src="js/calc.js"> 
+</footer>
+</body>
+</html>
 
 ```
 
