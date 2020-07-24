@@ -195,3 +195,5 @@ https://stackoverflow.com/questions/7789521/how-to-link-external-javascript-file
 https://www.w3schools.com/js/js_functions.asp
 
 https://www.w3schools.com/js/js_comments.asp
+
+https://www.w3schools.com/jsref/jsref_isinteger.asp
