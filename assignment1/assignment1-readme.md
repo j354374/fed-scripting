@@ -181,7 +181,7 @@ Now we are getting there:
 
 
 We still need to do the following to check the input. We need to make sure it is a number, we need to make sure it is a integer (that is a whole number) and we need
-to make sure it is betwee and 1 and 50.
+to make sure it is between and 0 and 50.
 
 First we add the following code:
 
