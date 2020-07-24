@@ -100,3 +100,5 @@ https://www.w3schools.com/tags/att_input_disabled.asp
 https://www.w3schools.com/charsets/ref_html_entities_4.asp
 
 https://stackoverflow.com/questions/7789521/how-to-link-external-javascript-file-onclick-of-button
+
+https://www.w3schools.com/js/js_functions.asp
