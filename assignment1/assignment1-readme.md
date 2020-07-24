@@ -189,7 +189,11 @@ First we add the following code:
 if(Number.isNaN(number)) num = 1; 
     alert("That's not a number!"); 
 ```    
+However we find that it gives us the alert no matter if we type a number or a letter!
+This is frustrating but there is an explanation.  
 
+
+> Number.isNaN() both test if a value is (or, in the case of isNaN(), can be converted to a number-type value that represents) the NaN value. In other words, "NaN" does not simply mean "this value is not a number", it specifically means "this value is a numeric Not-a-Number value according to IEEE-754".
 
 references
 
@@ -213,5 +217,7 @@ https://www.w3schools.com/js/js_functions.asp
 https://www.w3schools.com/js/js_comments.asp
 
 https://www.w3schools.com/jsref/jsref_isnan_number.asp
+
+https://stackoverflow.com/questions/25176459/is-number-isnan-more-broken-than-isnan
 
 https://www.w3schools.com/jsref/jsref_isinteger.asp
