@@ -164,7 +164,7 @@ I also found that their was no terminating html tag for script. We now have the 
 ```
 
 Now we are getting the alert! 
-
+-
 ![stage7](readme_files/screenshot7.PNG)
 
 It still wasn't quite right as per the screenshot above so I have adjust the alert code as follows:
