@@ -2,8 +2,6 @@
 
 console.log("Hello");
 
-function echo( number ) {
-	alert("You entered", + number + "!");
+function echo(number) {
+    alert("You entered: " + number + "!");
 }
-
-
