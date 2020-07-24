@@ -68,6 +68,11 @@ First we change the code in index.html as follows:
 ```
 <button type="button" onclick="echo(number.value)">Calculate!</button><br>
 ```
+```
+and enabled the script src
+
+<script src="js/calc.js"> 
+```
 
 and we create a file called calc.js with the following:
 
@@ -80,9 +85,35 @@ function functionName( echo ){
 ```
 
 
-Unfortunately this doesn't show the alert we are expecting. To debug this I have opened the debug console in chrome and found the following console entry.
+
+
+
+Unfortunately this doesn't show the alert we are expecting. To debug this I have opened the debug console in the chrome browser and found the following console entry.
 
 ![stage4](readme_files/screenshot4.PNG)
+
+
+
+First I noticed some errors in my js code. I have changed the function code to:
+
+```
+function echo( number ) {
+	alert("You entered", + number + "!");
+```
+
+and I have added a debug line:
+
+```
+console.log("Hello");
+```
+
+Unfortunately it still can't find the "echo" function and it also isn't showing the console log message.
+
+I have changed the script src as follows:
+
+```
+<script src="js/calc.js"> 
+```
 
 references
 
