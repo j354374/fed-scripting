@@ -1,5 +1,5 @@
 //calc.js
 
 function functionName( echo ){
-	alert('You entered, ' + numbers + '!');
+	alert('You entered, ' + number + '!');
 }
