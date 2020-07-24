@@ -148,6 +148,14 @@ I have changed the script src in index.html back to
 <script src="js/calc.js"> 
 ```
 
+Unfortunately we are still getting the original error about the echo function.
+
+I have changed the index.html code as follows to remove the ';' sign:
+
+```
+ <button type="button" onclick="javascript:echo(number.value)">Calculate!</button><br>
+ ```
+
 references
 
 https://www.w3schools.com/html/html_tables.asp
