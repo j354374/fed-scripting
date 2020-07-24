@@ -1,6 +1,6 @@
 Stage 1:
 
-![stage1](/readme_files/screenshot1.PNG)
+![stage1](readme_files/screenshot1.PNG)
 
 
 references
