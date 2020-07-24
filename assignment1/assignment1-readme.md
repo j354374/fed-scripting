@@ -141,6 +141,13 @@ After reloading the page I find yet another error:
 
 ![stage6](readme_files/screenshot6.PNG)
 
+I have changed the script src in index.html back to
+
+```
+<!--- Script 2.1 - template.html -->
+<script src="js/calc.js"> 
+```
+
 references
 
 https://www.w3schools.com/html/html_tables.asp
