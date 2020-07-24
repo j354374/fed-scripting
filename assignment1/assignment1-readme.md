@@ -186,7 +186,7 @@ to make sure it is betwee and 1 and 50.
 First we add the following code:
 
 ```
-if(Number.isNaN(number)) num = 0; 
+if(Number.isNaN(number)) num = 1; 
     alert("That's not a number!"); 
 ```    
 
