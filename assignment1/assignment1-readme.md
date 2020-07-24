@@ -205,4 +205,6 @@ https://www.w3schools.com/js/js_functions.asp
 
 https://www.w3schools.com/js/js_comments.asp
 
+https://www.w3schools.com/jsref/jsref_isnan_number.asp
+
 https://www.w3schools.com/jsref/jsref_isinteger.asp
