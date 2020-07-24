@@ -61,6 +61,25 @@ Here is the code (from index.html) so far:
 ```
 
 
+
+Now to start adding our javascript functions:
+
+First we change the code in index.html as follows:
+```
+<button type="button" onclick="echo(number.value)">Calculate!</button><br>
+```
+
+and we create a file called calc.js with the following:
+
+```
+//calc.js
+
+function functionName( echo ){
+	alert('You entered, ' + numbers + '!');
+}
+```
+
+
 references
 
 https://www.w3schools.com/html/html_tables.asp
