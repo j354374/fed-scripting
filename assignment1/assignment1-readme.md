@@ -155,8 +155,7 @@ I have changed the index.html code as follows to remove the ';' sign:
 ```
  <button type="button" onclick="javascript:echo(number.value)">Calculate!</button><br>
  ```
- 
-I found that the ';' on the echo function was unnessary so it has been removed.
+
 
 I also found that their was no terminating html tag for script. We now have the following in index.html:
 
