@@ -125,7 +125,7 @@ My text editor (github Ed file) must not be adding a new line code.
 
 I have changed the type of comment and my file now looks like this:
 
-
+```
 `/* calc.js */
 
 console.log("Hello");
@@ -137,6 +137,9 @@ function echo( number ) {
 
 ```
 
+After reloading the page I find yet another error:
+
+![stage6](readme_files/screenshot6.PNG)
 
 references
 
