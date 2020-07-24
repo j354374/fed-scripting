@@ -175,6 +175,12 @@ function echo(number) {
 }
 ```
 
+Now we are getting there:
+
+![stage8](readme_files/screenshot8.PNG)
+
+
+
 references
 
 https://www.w3schools.com/html/html_tables.asp
