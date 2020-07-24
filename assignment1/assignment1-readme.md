@@ -1,3 +1,7 @@
+Stage 1:
+
+![stage1}(screenshot1.png)
+
 
 references
 
