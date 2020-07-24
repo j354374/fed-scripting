@@ -115,6 +115,10 @@ I have changed the script src as follows:
 <script src="/js/calc.js"> 
 ```
 
+Unfortunately this still didn't work. However from the console log I noticed the following:
+
+![stage5](readme_files/screenshot5.PNG)
+
 references
 
 https://www.w3schools.com/html/html_tables.asp
