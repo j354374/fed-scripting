@@ -112,7 +112,7 @@ Unfortunately it still can't find the "echo" function and it also isn't showing 
 I have changed the script src as follows:
 
 ```
-<script src="js/calc.js"> 
+<script src="/js/calc.js"> 
 ```
 
 references
