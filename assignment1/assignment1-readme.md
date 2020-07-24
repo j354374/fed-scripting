@@ -80,6 +80,10 @@ function functionName( echo ){
 ```
 
 
+Unfortunately this doesn't show the alert we are expecting. To debug this I have opened the debug console in chrome and found the following console entry.
+
+![stage4](readme_files/screenshot4.PNG)
+
 references
 
 https://www.w3schools.com/html/html_tables.asp
