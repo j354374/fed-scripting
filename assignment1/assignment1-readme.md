@@ -119,6 +119,8 @@ Unfortunately this still didn't work. However from the console log I noticed the
 
 ![stage5](readme_files/screenshot5.PNG)
 
+It appears that all the code is commented out!
+
 references
 
 https://www.w3schools.com/html/html_tables.asp
