@@ -163,6 +163,17 @@ I also found that their was no terminating html tag for script. We now have the 
 <script src="js/calc.js"></script>
 ```
 
+Now we are getting the alert! 
+![stage7](readme_files/screenshot7.PNG)
+
+It still wasn't quite right as per the screenshot above so I have adjust the alert code as follows:
+
+```
+function echo(number) {
+    alert("You entered: " + number + "!");
+}
+```
+
 references
 
 https://www.w3schools.com/html/html_tables.asp
