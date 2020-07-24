@@ -75,7 +75,7 @@ and we create a file called calc.js with the following:
 //calc.js
 
 function functionName( echo ){
-	alert('You entered, ' + numbers + '!');
+	alert('You entered, ' + number + '!');
 }
 ```
 
