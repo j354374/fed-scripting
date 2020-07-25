@@ -301,9 +301,10 @@ function echo(fancynumber) {
     
 }
 ```
+Another code segment has been found to work properly. This is from the example provided by w3 schools.
 
 ```
-// If x is Not a Number or less than one or greater than 10
+// If x is Not a Number or less than one or greater than 50
   if (isNaN(fancynumber) || fancynumber < 1 || fancynumber > 50) {
     alert("Input is not valid!");
   } else {
@@ -315,6 +316,7 @@ function echo(fancynumber) {
   
   ```
 
+This changes the input text box to enabled.
 
 ## References
 
