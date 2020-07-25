@@ -2,8 +2,8 @@
 
 console.log("Hello");
 
-function echo(number) {
-    alert("You entered: " + number + "!");
+function echo(fancynumber) {
+    alert("You entered: " + fancynumber + "!");
     
 if(Number.isNaN(number)) num = 1; 
     alert("That's not a number!");     
