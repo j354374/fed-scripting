@@ -7,7 +7,7 @@ We have one text input box [[2]](#2) but no button as yet.
 
 ![stage1](readme_files/screenshot1.PNG)
 
-In the next part code is entered to create the HTML button. This is the &lt;button&gt; tag[[3]](#3). 
+In the next part code is entered to create the HTML button. This is using the &lt;button&gt; tag.[[3]](#3. 
 
 
 ![stage1-part2](readme_files/screenshot2.PNG)
