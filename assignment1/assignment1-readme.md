@@ -261,10 +261,10 @@ Document checking completed. No errors or warnings to show.
 ```
 
 
-Unforuntately it appears the typeof code isn't working for us either but we can actually check the validation in HTML. We change:
+Unforuntately it appears the typeof code isn't working for us either but we can actually check the validation in HTML. We change line 22 of index.html as follows:
 
 ```
-
+<input type="number" id="fancynumber" name="fancynumber" min="1" max="50"><br>
 
 ```
 
