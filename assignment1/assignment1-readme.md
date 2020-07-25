@@ -1,17 +1,15 @@
 ## Stage 1:
 
-This is just html with the use of the table function. We have one text input box and a button.
+This is just html with the use of the table function. We have one text input box but no button.
 
 ![stage1](readme_files/screenshot1.PNG)
 
-## 
+
 
 ![stage2](readme_files/screenshot2.PNG)
 
 Currently we can enter text and press the button but no input detection or calculation takes place.
-
-
-Stage 3: 
+ 
 
 We have now added the disabled inputs that will show the number in factorial, squared and cubed.
 
