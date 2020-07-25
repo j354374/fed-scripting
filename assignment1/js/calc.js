@@ -18,6 +18,7 @@ function echo(fancynumber) {
      /*alert("Input is OK!"); */
       document.getElementById("factorial").disabled = false;
     /*  document.getElementById("factorial").value = "1"; */
+      console.log(factorial(fancynumber));
         
   }    
     
