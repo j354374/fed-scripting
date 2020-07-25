@@ -2,6 +2,7 @@
 
 console.log("Hello");
 
+
 function echo(fancynumber) {
     alert("You entered: " + fancynumber + "!");
  
@@ -18,8 +19,28 @@ function echo(fancynumber) {
      /*alert("Input is OK!"); */
       document.getElementById("factorial").disabled = false;
     /*  document.getElementById("factorial").value = "1"; */
-      fancyfactorial = factorial(fancynumber);
-      console.log(fancyfactorial);
+      
+      /* testing code */
+      function findFactorial(){
+		//clear the result div
+        document.getElementById("result").innerHTML = "";
+		var num = document.getElementById("fancynumber").value;
+		var fact = 1;
+		
+		//loop till the iterator i equals to number
+		for (i = 1; i <= num; i++){
+ 
+			//formula to calculate factorial is to 
+			//multiply the iterator i value with fact value.			
+			fact = fact * i;
+ 
+			//put the below lines of code out of this 'for loop' to show only the total value
+            
+			document.getElementById("factorial").value(fact);
+		}
+	}
+      
+      /*testing code */
         
   }    
     
