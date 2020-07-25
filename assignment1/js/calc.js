@@ -16,6 +16,8 @@ function echo(fancynumber) {
     alert("Input is not valid!");
   } else {
     alert("Input is OK!");
+    $(“factorial”).value = 1;  
+      
   }    
     
     
