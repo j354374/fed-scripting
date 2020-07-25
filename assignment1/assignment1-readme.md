@@ -1,6 +1,7 @@
 ## Stage 1:
 
-This is just html with the use of the table function.[1] We have one text input[2] box but no button as yet.
+This is just html with the use of the table function.[[1]](#1).
+We have one text input [[2]](#2). box but no button as yet.
 
 ![stage1](readme_files/screenshot1.PNG)
 
