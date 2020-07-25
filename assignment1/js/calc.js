@@ -15,8 +15,8 @@ function echo(fancynumber) {
   if (isNaN(fancynumber) || fancynumber < 1 || fancynumber > 50) {
     alert("Input is not valid!");
   } else {
-    /* alert("Input is OK!"); */
-    $(“factorial”).value = 1;  
+     alert("Input is OK!"); 
+  /*   $(“factorial”).value = 1;   */
       
   }    
     
