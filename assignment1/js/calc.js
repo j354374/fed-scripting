@@ -5,8 +5,8 @@ console.log("Hello");
 function echo(fancynumber) {
     alert("You entered: " + fancynumber + "!");
     
-if (!Number.isInteger(fancynumber))
-    alert("That's not a integer!");
+/* if (!Number.isInteger(fancynumber))
+    alert("That's not a integer!");*/
    
     
   /*  if (typeof fancynumber !== 'number')
