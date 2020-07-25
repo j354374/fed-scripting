@@ -2,7 +2,7 @@
 &#x1F535;
 
 First the javascript application is built by creating the html backbone an we introduce functionality in different stages.
-In stage 1 this is just html with the use of the table function[[1]](#1) with the &lt;tr&gt; (table row) and &lt;td&gt; (table data) tags.
+In stage 1 this is just html with the use of the table function [[1]](#1) with the &lt;tr&gt; (table row) and &lt;td&gt; (table data) tags.
 We have one text input box [[2]](#2) but no button as yet.
 
 ![stage1](readme_files/screenshot1.PNG)
