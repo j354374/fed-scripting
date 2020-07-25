@@ -254,7 +254,7 @@ https://www.w3schools.com/html/html_forms.asp
 <a id="3">[3]</a> 
 W3 schools (2020). \
 HTML button Tag \
-https://www.w3schools.com/html/html_forms.asp
+https://www.w3schools.com/tags/tag_button.asp
 
 <a id="4">[4]</a>	
 W3 schools (2020). \
@@ -281,18 +281,11 @@ https://www.w3schools.com/jsref/jsref_operators.asp
 
 references
 
-https://www.w3schools.com/html/html_tables.asp
 
 
-https://www.w3schools.com/html/html_forms.asp
 
 
-https://www.w3schools.com/tags/tag_button.asp
 
-
-https://www.w3schools.com/tags/att_input_disabled.asp
-
-https://www.w3schools.com/charsets/ref_html_entities_4.asp
 
 https://stackoverflow.com/questions/7789521/how-to-link-external-javascript-file-onclick-of-button
 
