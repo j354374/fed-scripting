@@ -1,7 +1,7 @@
 ## Stage 1:
 &#x1F535;
 
-First the javascript application is built by creating the html backbone an we introduce functionality in different stages.
+First the javascript application is built by creating the html document backbone and we introduce functionality in different stages.
 In stage 1 this is just html with the use of the table function [[1]](#1) with the &lt;tr&gt; (table row) and &lt;td&gt; (table data) tags.
 We have one text input box [[2]](#2) but no button as yet.
 
@@ -63,7 +63,7 @@ Here is the code (from index.html) so far:
 </html>
 
 ```
-
+Please note the escape characters included for factorial, squared and cubed are from HTML 4 Enties. [[5]](#5) 
 
 
 Now to start adding our javascript functions:
@@ -241,6 +241,8 @@ if (typeof fancynumber !== 'number')
 !== is a javascript operator that checks for:
 >not equal value or not equal type [[999]](#999).
 
+## References
+
 <a id="1">[1]</a> 
 W3 schools (2020). \
 Define an HTML Table \
@@ -261,8 +263,13 @@ W3 schools (2020). \
 HTML input disabled Attribute \
 https://www.w3schools.com/tags/att_input_disabled.asp
 
+<a id="5">[5]</a>
+W3 schools (2020). \
+Complete HTML 4 Entity Reference \
+https://www.w3schools.com/charsets/ref_html_entities_4.asp
 
-## References
+
+
 <a id="999">[999]</a> 
 W3 schools (2020). \
 JavaScript Operators Reference,\
