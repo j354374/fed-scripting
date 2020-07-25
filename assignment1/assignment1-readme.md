@@ -384,3 +384,5 @@ https://www.w3schools.com/tags/att_input_type_number.asp
 https://www.geeksforgeeks.org/form-validation-using-html-javascript/
 
 https://www.w3schools.com/js/js_if_else.asp
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_number
