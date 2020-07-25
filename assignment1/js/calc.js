@@ -21,7 +21,7 @@ function echo(fancynumber) {
     /*  document.getElementById("factorial").value = "1"; */
       
       /* testing code */
-      function findFactorial(){
+      function findFactorial(fancynumber){
 		
 		var num = document.getElementById("fancynumber").value;
 		var fact = 1;
