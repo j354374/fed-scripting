@@ -10,7 +10,14 @@ function echo(fancynumber) {
 } else {
     alert("That's not a integer!");
 }   
-       
+
+ // If x is Not a Number or less than one or greater than 10
+  if (isNaN(fancynumber) || fancynumber < 1 || fancynumber > 50) {
+    alert("Input is not valid!");
+  } else {
+    alert("Input is OK!");
+  }    
+    
     
   /*  if (typeof fancynumber !== 'number')
    alert("That's not a number!");*/
