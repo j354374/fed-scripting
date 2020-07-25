@@ -7,6 +7,7 @@ We have one text input box [[2]](#2) but no button as yet.
 
 ![stage1](readme_files/screenshot1.PNG)
 
+In the next part code is entered to create the HTML button. This is the &lt;button&gt; tag[[3]](#3). 
 
 
 ![stage1-part2](readme_files/screenshot2.PNG)
@@ -248,6 +249,11 @@ https://www.w3schools.com/html/html_tables.asp
 <a id="2">[2]</a> 
 W3 schools (2020). \
 HTML Forms \
+https://www.w3schools.com/html/html_forms.asp
+
+<a id="3">[3]</a> 
+W3 schools (2020). \
+HTML button Tag \
 https://www.w3schools.com/html/html_forms.asp
 
 
