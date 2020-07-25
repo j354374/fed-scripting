@@ -94,7 +94,7 @@ function functionName( echo ){
 ```
 
 
-Unfortunately this doesn't show the alert we are expecting. To debug this I have opened the debug console in the chrome browser and found the following under the HTML inspector.
+Unfortunately this doesn't show the alert we are expecting. To debug this I have opened the debug console in the chrome browser and found the following under the console table.
 
 ![stage2](readme_files/screenshot4.PNG)
 
@@ -121,7 +121,7 @@ I have changed the script src as follows:
 <script src="/js/calc.js"> 
 ```
 
-Unfortunately this still didn't work. However from the console log I noticed the following:
+Unfortunately this still didn't work. However from the console log under the HTML inspector I noticed the following:
 
 ![stage5](readme_files/screenshot5.PNG)
 
