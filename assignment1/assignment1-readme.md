@@ -19,7 +19,7 @@ We have now added the disabled inputs [[4]](#4) that will (eventually) show the 
 
 Please see the following screenshot:
 
-![stage3](readme_files/screenshot3.PNG)
+![stage1-part3](readme_files/screenshot3.PNG)
 
 Here is the code (from index.html) so far:
 
@@ -69,10 +69,14 @@ Please note the escape characters included for factorial, squared and cubed are 
 &#x1F535;
 
 
-First we change the code in index.html as follows:
+First we change the code in index.html to add onclick = function() (onclick Event) [[6]](#6)  as follows:
+
+
 ```
 <button type="button" onclick="echo(number.value)">Calculate!</button><br>
 ```
+
+
 ```
 and enabled the script src
 
@@ -92,7 +96,7 @@ function functionName( echo ){
 
 Unfortunately this doesn't show the alert we are expecting. To debug this I have opened the debug console in the chrome browser and found the following under the HTML inspector.
 
-![stage4](readme_files/screenshot4.PNG)
+![stage2](readme_files/screenshot4.PNG)
 
 
 
@@ -266,6 +270,10 @@ W3 schools (2020). \
 Complete HTML 4 Entity Reference \
 https://www.w3schools.com/charsets/ref_html_entities_4.asp
 
+<a id="6">[6]</a>
+W3 schools (2020). \
+onclick Event \
+https://www.w3schools.com/jsref/event_onclick.asp
 
 
 <a id="999">[999]</a> 
