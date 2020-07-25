@@ -320,6 +320,14 @@ This changes the input text box to enabled provided a valid input is entered as 
 
 ![stage3-partx](readme_files/screenshot13.PNG)
 
+
+
+```
+console.log(factorial(fancynumber));
+
+```
+![stage3-partx](readme_files/screenshot14.PNG)
+
 ## References
 
 <a id="1">[1]</a> 
