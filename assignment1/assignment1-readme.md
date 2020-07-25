@@ -90,10 +90,7 @@ function functionName( echo ){
 ```
 
 
-
-
-
-Unfortunately this doesn't show the alert we are expecting. To debug this I have opened the debug console in the chrome browser and found the following console entry.
+Unfortunately this doesn't show the alert we are expecting. To debug this I have opened the debug console in the chrome browser and found the following under the HTML inspector.
 
 ![stage4](readme_files/screenshot4.PNG)
 
