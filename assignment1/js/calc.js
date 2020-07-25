@@ -5,11 +5,11 @@ console.log("Hello");
 function echo(fancynumber) {
     alert("You entered: " + fancynumber + "!");
  
- if (Number.isInteger(fancynumber)) {
+/* if (Number.isInteger(fancynumber)) {
     alert("That's an integer!");
 } else {
     alert("That's not a integer!");
-}   
+}   */
 
  // If x is Not a Number or less than one or greater than 10
   if (isNaN(fancynumber) || fancynumber < 1 || fancynumber > 50) {
