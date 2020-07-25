@@ -244,7 +244,7 @@ if (typeof fancynumber !== 'number')
 >not equal value or not equal type [[999]](#999).
 
 Before going any further lets validate our HTML using the [W3C mark-up validation service](https://validator.w3.org/).
-We can see two errors as folows:
+We can see two errors as follows:
 ![stage3](readme_files/screenshot9.PNG)
 
 In order to connect the validation errors lines 18 and 19 have been changed as follows:
@@ -253,6 +253,13 @@ In order to connect the validation errors lines 18 and 19 have been changed as f
 <tr><th>Fancy Calculator</th></tr>
 <tr><td>
 ```
+
+From the validator we now get:
+
+```
+Document checking completed. No errors or warnings to show.
+```
+
 
 ## References
 
