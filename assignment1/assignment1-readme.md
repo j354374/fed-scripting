@@ -1,13 +1,14 @@
 ## Stage 1:
 
-This is just html with the use of the table function[[1]](#1).
-We have one text input box [[2]](#2)  but no button as yet.
+First the javascript application is built by creating the html backbone an we introduce functionality in different stages.
+In stage 1 this is just html with the use of the table function[[1]](#1).
+We have one text input box [[2]](#2) but no button as yet.
 
 ![stage1](readme_files/screenshot1.PNG)
 
 
 
-![stage2](readme_files/screenshot2.PNG)
+![stage1-part2](readme_files/screenshot2.PNG)
 
 Currently we can enter text and press the button but no input detection or calculation takes place.
  
