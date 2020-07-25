@@ -302,6 +302,20 @@ function echo(fancynumber) {
 }
 ```
 
+```
+// If x is Not a Number or less than one or greater than 10
+  if (isNaN(fancynumber) || fancynumber < 1 || fancynumber > 50) {
+    alert("Input is not valid!");
+  } else {
+     /*alert("Input is OK!"); */
+      document.getElementById("factorial").disabled = false;
+    /*  document.getElementById("factorial").value = "1"; */
+        
+  }    
+  
+  ```
+
+
 ## References
 
 <a id="1">[1]</a> 
