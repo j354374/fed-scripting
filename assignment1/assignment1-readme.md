@@ -1,6 +1,6 @@
 ## Stage 1:
 
-This is just html with the use of the table function. We have one text input box but no button.
+This is just html with the use of the table function.[1] We have one text input[2] box but no button as yet.
 
 ![stage1](readme_files/screenshot1.PNG)
 
@@ -237,7 +237,15 @@ if (typeof fancynumber !== 'number')
 !== is a javascript operator that checks for:
 >not equal value or not equal type [[999]](#999).
 
+<a id="1">[1]</a> 
+W3 schools (2020). \
+Define an HTML Table \
+https://www.w3schools.com/html/html_tables.asp
 
+<a id="2">[2]</a> 
+W3 schools (2020). \
+HTML Forms \
+https://www.w3schools.com/html/html_forms.asp
 
 
 
