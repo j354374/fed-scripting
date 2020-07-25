@@ -210,7 +210,7 @@ At this point things are getting very confusing. So we check the best practice f
 
 Let's rename our variable "number" to "fancynumber".
 
-We change the code in index.html to:
+The code in index.html was changed to:
 
 ```
  <label for="fancynumber">Please enter a number between 0 and 50.</label><br>
@@ -218,13 +218,13 @@ We change the code in index.html to:
  <button type="button" onclick="echo(fancynumber.value)">Calculate!</button><br>
  ```
  
- We then changed our function in calc.js to the following:
+ The function in calc.js was changed to the following:
  
  ```
  function echo(fancynumber) {
     alert("You entered: " + fancynumber + "!");
  ```   
- 
+ and Number.isNaN was removed.
  
 references
 
