@@ -386,3 +386,5 @@ https://www.geeksforgeeks.org/form-validation-using-html-javascript/
 https://www.w3schools.com/js/js_if_else.asp
 
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_number
+
+https://www.w3schools.com/jsref/met_document_getelementbyid.asp
