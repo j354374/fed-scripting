@@ -269,7 +269,7 @@ Unforuntately it appears the typeof code isn't working for us either but we can 
 ```
 ![stage3-partx](readme_files/screenshot10.PNG)
 
-This creates up and down arrows and prevents typing letters or special characters in but still allows numbers out of range such as negative numbers or numbers above 50 to be typed. It allows 'e', '.' and '-' as those characters are often used in math. There may be other characters too but this means that javascript needs to be used for furter input validation.
+This creates up and down arrows and prevents typing letters or special characters in but still allows numbers out of range such as negative numbers or numbers above 50 to be typed. It allows 'e', '.' and '-' as those characters are often used in math. There may be other characters too but this means that javascript needs to be used for further input validation.
 
 ![stage3-partx](readme_files/screenshot11.PNG)
 
