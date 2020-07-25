@@ -273,7 +273,9 @@ This creates up and down arrows and prevents typing letters or special character
 
 ![stage3-partx](readme_files/screenshot11.PNG)
 
+Additionally the Midori browser lets the user type anything they want.
 
+![stage3-partx](readme_files/screenshot12.PNG)
 ## References
 
 <a id="1">[1]</a> 
