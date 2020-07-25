@@ -69,12 +69,13 @@ Please note the escape characters included for factorial, squared and cubed are 
 &#x1F535;
 
 
-First we change the code in index.html to add onclick = function() (onclick Event) [[6]](#6)  as follows:
+First we change the code in index.html to add onclick (onclick Event) [[6]](#6) = function() [[7]](#7) as follows:
 
 
 ```
 <button type="button" onclick="echo(number.value)">Calculate!</button><br>
 ```
+
 
 
 ```
@@ -123,7 +124,7 @@ I have changed the script src as follows:
 
 Unfortunately this still didn't work. However from the console log under the HTML inspector I noticed the following:
 
-![stage5](readme_files/screenshot5.PNG)
+![stage2-part2](readme_files/screenshot5.PNG)
 
 It appears that all the code is commented out!
 
@@ -145,7 +146,7 @@ function echo( number ) {
 
 After reloading the page I find yet another error:
 
-![stage6](readme_files/screenshot6.PNG)
+![stage2-part3](readme_files/screenshot6.PNG)
 
 I have changed the script src in index.html back to
 
@@ -171,9 +172,9 @@ I also found that their was no terminating html tag for script. We now have the 
 
 Now we are getting the alert! 
 -
-![stage7](readme_files/screenshot7.PNG)
+![stage2-part4](readme_files/screenshot7.PNG)
 
-It still wasn't quite right as per the screenshot above so I have adjust the alert code as follows:
+It still wasn't quite right as per the screenshot above so I have adjusted the alert code as follows:
 
 ```
 function echo(number) {
@@ -183,7 +184,7 @@ function echo(number) {
 
 Now we are getting there:
 
-![stage8](readme_files/screenshot8.PNG)
+![stage2-part5](readme_files/screenshot8.PNG)
 
 
 We still need to do the following to check the input. We need to make sure it is a number, we need to make sure it is a integer (that is a whole number) and we need
@@ -274,6 +275,11 @@ https://www.w3schools.com/charsets/ref_html_entities_4.asp
 W3 schools (2020). \
 onclick Event \
 https://www.w3schools.com/jsref/event_onclick.asp
+
+<a id="7">[7]</a>
+W3 schools (2020). \
+JavaScript functions \
+https://www.w3schools.com/js/js_functions.asp
 
 
 <a id="999">[999]</a> 
