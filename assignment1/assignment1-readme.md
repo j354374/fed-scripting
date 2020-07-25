@@ -1,6 +1,5 @@
- &#x1F535;
-
-## Stage 1:  
+## Stage 1:
+&#x1F535;
 
 First the javascript application is built by creating the html backbone an we introduce functionality in different stages.
 In stage 1 this is just html with the use of the table function[[1]](#1).
