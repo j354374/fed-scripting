@@ -336,3 +336,7 @@ https://www.informit.com/articles/article.aspx?p=131025&seqNum=3
 
 https://www.w3schools.com/jsref/jsref_operators.asp
 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number
+
+https://www.w3schools.com/tags/att_input_type_number.asp
+
