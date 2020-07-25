@@ -258,7 +258,7 @@ https://www.w3schools.com/html/html_forms.asp
 
 <a id="4">[4]</a>	
 W3 schools (2020). \
-HTML <input> disabled Attribute \
+HTML input disabled Attribute \
 https://www.w3schools.com/tags/att_input_disabled.asp
 
 
