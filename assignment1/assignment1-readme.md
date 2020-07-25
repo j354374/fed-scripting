@@ -426,3 +426,5 @@ https://www.w3schools.com/jsref/met_document_getelementbyid.asp
 https://www.w3resource.com/javascript-exercises/javascript-recursion-function-exercise-1.php
 
 https://www.educative.io/edpresso/how-to-find-the-factorial-of-a-number-in-javascript
+
+https://stackoverflow.com/questions/3959211/what-is-the-fastest-factorial-function-in-javascript
