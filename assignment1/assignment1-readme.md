@@ -269,6 +269,10 @@ Unforuntately it appears the typeof code isn't working for us either but we can 
 ```
 ![stage3-partx](readme_files/screenshot10.PNG)
 
+This creates up and down arrows and prevents typing letters or special characters in but still allows numbers out of range such as negative numbers or numbers abvove 50 to be typed.
+
+
+
 ## References
 
 <a id="1">[1]</a> 
