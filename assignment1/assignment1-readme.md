@@ -76,11 +76,9 @@ First we change the code in index.html to add onclick (onclick Event) [[6]](#6) 
 <button type="button" onclick="echo(number.value)">Calculate!</button><br>
 ```
 
-
+and enabled the script src using the following tag &lt;script&gt; [[8]](#8).
 
 ```
-and enabled the script src
-
 <script src="js/calc.js"> 
 ```
 
@@ -281,6 +279,10 @@ W3 schools (2020). \
 JavaScript functions \
 https://www.w3schools.com/js/js_functions.asp
 
+<a id="8">[8]</a>
+W3 schools (2020). \
+The HTML script Tag
+https://www.w3schools.com/html/html_scripts.asp
 
 <a id="999">[999]</a> 
 W3 schools (2020). \
