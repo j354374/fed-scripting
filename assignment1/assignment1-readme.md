@@ -248,9 +248,11 @@ We can see two errors as folows:
 ![stage3](readme_files/screenshot9.PNG)
 
 In order to connect the validation errors lines 18 and 19 have been changed as follows:
-```<tr>  <th>Fancy Calculator</th></tr>
- <tr><td>
- ```
+
+```
+<tr><th>Fancy Calculator</th></tr>
+<tr><td>
+```
 
 ## References
 
