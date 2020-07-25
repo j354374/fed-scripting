@@ -15,7 +15,7 @@ In the next part code is entered to create the HTML button. This is the &lt;butt
 Currently we can enter text and press the button but no input detection or calculation takes place.
  
 
-We have now added the disabled inputs that will show the number in factorial, squared and cubed.
+We have now added the disabled inputs [[4]](#4) that will (eventually) show the number in factorial, squared and cubed.
 
 Please see the following screenshot:
 
