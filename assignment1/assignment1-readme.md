@@ -214,7 +214,7 @@ We change the code in index.html to:
 
 ```
  <label for="fancynumber">Please enter a number between 0 and 50.</label><br>
- <input type="text" id="number" name="fancynumber"><br>
+ <input type="text" id="fancynumber" name="fancynumber"><br>
  <button type="button" onclick="echo(fancynumber.value)">Calculate!</button><br>
  ```
 
