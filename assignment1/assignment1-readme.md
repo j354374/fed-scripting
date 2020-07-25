@@ -203,6 +203,13 @@ if (typeof number === 'number')
    alert("That's not a number!"); 
 ```
 
+At this point things are getting very confusing. So we check the best practice for naming rules and variables.
+
+>Try to make your variable names look as different from JavaScript's keywords and other built-in terms (such as alert) as possible. This helps avoid the confusion that can arise when you look at a term and you can't remember if it's a variable or a JavaScript wor. Use Multiple-Word Names - This helps a bit because most JavaScript terms are single words.
+
+
+Let's rename our variable "number" to "FancyNumber".
+
 references
 
 https://www.w3schools.com/html/html_tables.asp
@@ -229,3 +236,7 @@ https://www.w3schools.com/jsref/jsref_isnan_number.asp
 https://stackoverflow.com/questions/25176459/is-number-isnan-more-broken-than-isnan
 
 https://www.w3schools.com/jsref/jsref_isinteger.asp
+
+https://www.informit.com/articles/article.aspx?p=131025&seqNum=3
+
+
