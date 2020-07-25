@@ -235,7 +235,22 @@ if (typeof fancynumber !== 'number')
 
 
 !== is a javascript operator that checks for:
->not equal value or not equal type
+>not equal value or not equal type [[999]](#999).
+
+
+
+
+
+## References
+<a id="999">[999]</a> 
+W3 schools (2020). 
+JavaScript Operators Reference,
+Comparison Operators
+https://www.w3schools.com/jsref/jsref_operators.asp
+
+
+
+
 
 
 references
