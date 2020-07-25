@@ -276,6 +276,32 @@ This creates up and down arrows and prevents typing letters or special character
 Additionally the Midori browser lets the user type anything they want.
 
 ![stage3-partx](readme_files/screenshot12.PNG)
+
+typeof has been commented out and an if statement has been entered that uses Number.isInteger:
+
+
+```
+/* calc.js */
+
+console.log("Hello");
+
+function echo(fancynumber) {
+    alert("You entered: " + fancynumber + "!");
+ 
+ if (Number.isInteger(+fancynumber)) {
+    alert("That's an integer!");
+} else {
+    alert("That's not a integer!");
+}   
+       
+    
+  /*  if (typeof fancynumber !== 'number')
+   alert("That's not a number!");*/
+
+    
+}
+```
+
 ## References
 
 <a id="1">[1]</a> 
