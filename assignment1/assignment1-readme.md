@@ -320,20 +320,21 @@ This changes the input text box to enabled provided a valid input is entered as 
 
 ![stage3-partx](readme_files/screenshot13.PNG)
 
-
+## Stage 4: Doing the math
+&#x1F535;
 
 ```
 console.log(factorial(fancynumber));
 
 ```
-![stage3-partx](readme_files/screenshot14.PNG)
+![stage4-partx](readme_files/screenshot14.PNG)
 
 
 ```
 fancyfactorial = factorial(fancynumber);
 ```
 
-![stage3-partx](readme_files/screenshot15.PNG)
+![stage4-partx](readme_files/screenshot15.PNG)
 
 ## References
 
