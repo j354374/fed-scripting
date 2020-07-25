@@ -65,8 +65,9 @@ Here is the code (from index.html) so far:
 ```
 Please note the escape characters included for factorial, squared and cubed are from HTML 4 Entities. [[5]](#5) 
 
+## Stage 2: Adding javascript functions
+&#x1F535;
 
-Now to start adding our javascript functions:
 
 First we change the code in index.html as follows:
 ```
