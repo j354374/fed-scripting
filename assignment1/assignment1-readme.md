@@ -316,7 +316,9 @@ Another code segment has been found to work properly. This is from the example p
   
   ```
 
-This changes the input text box to enabled provided a valid input is entered.
+This changes the input text box to enabled provided a valid input is entered as shown in the following screenshot:
+
+![stage3-partx](readme_files/screenshot12.PNG)
 
 ## References
 
