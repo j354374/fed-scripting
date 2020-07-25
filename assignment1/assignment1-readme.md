@@ -267,7 +267,7 @@ Unforuntately it appears the typeof code isn't working for us either but we can 
 <input type="number" id="fancynumber" name="fancynumber" min="1" max="50"><br>
 
 ```
-
+![stage3-partx](readme_files/screenshot10.PNG)
 
 ## References
 
