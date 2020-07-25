@@ -261,6 +261,14 @@ Document checking completed. No errors or warnings to show.
 ```
 
 
+Unforuntately it appears the typeof code isn't working for us either but we can actually check the validation in HTML. We change:
+
+```
+
+
+```
+
+
 ## References
 
 <a id="1">[1]</a> 
