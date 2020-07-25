@@ -228,8 +228,10 @@ The code in index.html was changed to:
  
 We next add this if statement to: 
 
+```
 if (typeof fancynumber !== 'number')
    alert("That's not a number!");
+```
 
 
 !== is a javascript operator that checks for:
