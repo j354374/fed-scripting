@@ -17,7 +17,7 @@ function echo(fancynumber) {
   } else {
      alert("Input is OK!"); 
   /*   $(“factorial”).value = 1;   */
-      
+      $("factorial").value = 1
   }    
     
     
