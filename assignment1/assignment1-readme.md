@@ -1,8 +1,10 @@
-Stage 1:
+## Stage 1:
+
+This is just html with the use of the table function. We have one text input box and a button.
 
 ![stage1](readme_files/screenshot1.PNG)
 
-Stage 2:
+## 
 
 ![stage2](readme_files/screenshot2.PNG)
 
