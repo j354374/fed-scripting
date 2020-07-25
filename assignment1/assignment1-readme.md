@@ -63,7 +63,7 @@ Here is the code (from index.html) so far:
 </html>
 
 ```
-Please note the escape characters included for factorial, squared and cubed are from HTML 4 Enties. [[5]](#5) 
+Please note the escape characters included for factorial, squared and cubed are from HTML 4 Entities. [[5]](#5) 
 
 
 Now to start adding our javascript functions:
