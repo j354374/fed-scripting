@@ -23,7 +23,8 @@ function echo(fancynumber) {
       /* testing code */
       function findFactorial(fancynumber){
 		
-		var num = document.getElementById("fancynumber").value;
+	        console.log("function findFactorial has started");
+		var num = fancynumber;
 		var fact = 1;
 		
 		//loop till the iterator i equals to number
