@@ -226,6 +226,16 @@ The code in index.html was changed to:
  ```   
  and Number.isNaN was removed.
  
+We next add this if statement to: 
+
+if (typeof fancynumber === 'number')
+   alert("That's not a number!");
+
+
+=== is a javascript operator that checks for:
+>equal value and equal type
+
+
 references
 
 https://www.w3schools.com/html/html_tables.asp
@@ -255,4 +265,5 @@ https://www.w3schools.com/jsref/jsref_isinteger.asp
 
 https://www.informit.com/articles/article.aspx?p=131025&seqNum=3
 
+https://www.w3schools.com/jsref/jsref_operators.asp
 
