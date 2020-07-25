@@ -247,6 +247,10 @@ Before going any further lets validate our HTML using the [W3C mark-up validatio
 We can see two errors as folows:
 ![stage3](readme_files/screenshot9.PNG)
 
+Line 18 has been changed as follows:
+```
+ <tr>  <th>Fancy Calculator</th></tr>
+ ```
 
 ## References
 
