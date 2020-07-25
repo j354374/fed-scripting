@@ -328,6 +328,13 @@ console.log(factorial(fancynumber));
 ```
 ![stage3-partx](readme_files/screenshot14.PNG)
 
+
+```
+fancyfactorial = factorial(fancynumber);
+```
+
+![stage3-partx](readme_files/screenshot15.PNG)
+
 ## References
 
 <a id="1">[1]</a> 
@@ -416,3 +423,5 @@ https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_number
 https://www.w3schools.com/jsref/met_document_getelementbyid.asp
 
 https://www.w3resource.com/javascript-exercises/javascript-recursion-function-exercise-1.php
+
+https://www.educative.io/edpresso/how-to-find-the-factorial-of-a-number-in-javascript
