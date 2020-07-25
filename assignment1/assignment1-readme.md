@@ -242,7 +242,7 @@ if (typeof fancynumber !== 'number')
 
 
 ## References
-<a id="999">[999]</a>\ 
+<a id="999">[999]</a> 
 W3 schools (2020). \
 JavaScript Operators Reference,\
 Comparison Operators\
