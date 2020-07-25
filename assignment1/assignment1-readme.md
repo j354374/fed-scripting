@@ -208,7 +208,15 @@ At this point things are getting very confusing. So we check the best practice f
 >Try to make your variable names look as different from JavaScript's keywords and other built-in terms (such as alert) as possible. This helps avoid the confusion that can arise when you look at a term and you can't remember if it's a variable or a JavaScript wor. Use Multiple-Word Names - This helps a bit because most JavaScript terms are single words.
 
 
-Let's rename our variable "number" to "FancyNumber".
+Let's rename our variable "number" to "fancynumber".
+
+We change the code in index.html to:
+
+```
+ <label for="fancynumber">Please enter a number between 0 and 50.</label><br>
+ <input type="text" id="number" name="fancynumber"><br>
+ <button type="button" onclick="echo(fancynumber.value)">Calculate!</button><br>
+ ```
 
 references
 
