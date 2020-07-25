@@ -217,7 +217,15 @@ We change the code in index.html to:
  <input type="text" id="fancynumber" name="fancynumber"><br>
  <button type="button" onclick="echo(fancynumber.value)">Calculate!</button><br>
  ```
-
+ 
+ We then changed our function in calc.js to the following:
+ 
+ ```
+ function echo(fancynumber) {
+    alert("You entered: " + fancynumber + "!");
+ ```   
+ 
+ 
 references
 
 https://www.w3schools.com/html/html_tables.asp
