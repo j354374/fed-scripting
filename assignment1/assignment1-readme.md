@@ -242,10 +242,10 @@ if (typeof fancynumber !== 'number')
 
 
 ## References
-<a id="999">[999]</a> 
-W3 schools (2020). 
-JavaScript Operators Reference,
-Comparison Operators
+<a id="999">[999]</a>\ 
+W3 schools (2020). \
+JavaScript Operators Reference,\
+Comparison Operators\
 https://www.w3schools.com/jsref/jsref_operators.asp
 
 
