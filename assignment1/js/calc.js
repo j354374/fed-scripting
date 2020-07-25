@@ -28,11 +28,13 @@ function echo(fancynumber) {
 		
 		//loop till the iterator i equals to number
 		for (i = 1; i <= num; i++){
- 
+                         
 			//formula to calculate factorial is to 
 			//multiply the iterator i value with fact value.			
 			fact = fact * i;
- 
+                         console.log(i);
+			 console.log(fact);
+		
 			//put the below lines of code out of this 'for loop' to show only the total value
             
 			document.getElementById("factorial").value(fact);
