@@ -22,8 +22,7 @@ function echo(fancynumber) {
       
       /* testing code */
       function findFactorial(){
-		//clear the result div
-        document.getElementById("result").innerHTML = "";
+		
 		var num = document.getElementById("fancynumber").value;
 		var fact = 1;
 		
