@@ -245,7 +245,7 @@ if (typeof fancynumber !== 'number')
 
 Before going any further lets validate our HTML using the [W3C mark-up validation service](https://validator.w3.org/).
 We can see two errors as folows:
-![stage3(screenshot9.PNG)
+![stage3](screenshot9.PNG)
 
 
 ## References
