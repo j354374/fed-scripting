@@ -1,7 +1,7 @@
 :beginner:\
 Assignment 1: Front End Scripting\
 Name: Christopher Paul Caston\
-Student id: j354374\
+Student id: j354374
 
 ## Stage 1:
 &#x1F535;
