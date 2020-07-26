@@ -363,7 +363,9 @@ fancyfactorial = factorial(fancynumber);
       
       /*testing code */
  ```     
-
+```
+findFactorial(fancynumber);
+```
 
 ![stage4-partx](readme_files/screenshot16.PNG)
 
