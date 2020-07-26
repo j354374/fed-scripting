@@ -375,6 +375,9 @@ In order to help troubleshoot the code for now the line has been commented out:
 /*	document.getElementById("factorial").value(fact);*/
 ```
 
+
+![stage4-partx](readme_files/screenshot17.PNG)
+
 ## References
 
 <a id="1">[1]</a> 
