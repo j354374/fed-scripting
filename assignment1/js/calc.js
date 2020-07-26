@@ -17,7 +17,7 @@ function echo(fancynumber) {
     alert("Input is not valid!");
   } else {
      /*alert("Input is OK!"); */
-      document.getElementById("factorial").disabled = false;
+     /* document.getElementById("factorial").disabled = false; */
     /*  document.getElementById("factorial").value = "1"; */
       
       /* testing code */
