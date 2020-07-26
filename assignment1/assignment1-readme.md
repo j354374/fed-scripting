@@ -336,6 +336,34 @@ fancyfactorial = factorial(fancynumber);
 
 ![stage4-partx](readme_files/screenshot15.PNG)
 
+
+
+```
+* testing code */
+      function findFactorial(fancynumber){
+		
+	        console.log("function findFactorial has started");
+		var num = fancynumber;
+		var fact = 1;
+		
+		//loop till the iterator i equals to number
+		for (i = 1; i <= num; i++){
+                         
+			//formula to calculate factorial is to 
+			//multiply the iterator i value with fact value.			
+			fact = fact * i;
+                         console.log(i);
+			 console.log(fact);
+		
+			//put the below lines of code out of this 'for loop' to show only the total value
+            
+			document.getElementById("factorial").value(fact);
+		}
+	}
+      
+      /*testing code */
+ ```     
+
 ## References
 
 <a id="1">[1]</a> 
