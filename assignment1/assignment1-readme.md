@@ -1,5 +1,5 @@
 :beginner:\
-Assignment 1: Front End Scripting\
+Assignment 1: Front-End Scripting\
 Name: Christopher Paul Caston\
 Student id: j354374
 
