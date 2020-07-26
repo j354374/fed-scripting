@@ -4,14 +4,14 @@ Name: Christopher Paul Caston\
 Student id: j354374
 
 
-- [Stage 1:](#stage-1-)
+- [Stage 1: Laying the foundations](#stage-1-)
 - [Stage 2: Adding javascript functions](#stage-2--adding-javascript-functions)
 - [Stage 3: Checking input](#stage-3--checking-input)
 - [Stage 4: Doing the math](#stage-4--doing-the-math)
 - [References](#references)
 
 
-## Stage 1:
+## Stage 1: Laying the foundations
 &#x1F535;
 
 First the javascript application is built by creating the html document backbone and we introduce functionality in different stages.
