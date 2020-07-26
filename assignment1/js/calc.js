@@ -42,7 +42,7 @@ function echo(fancynumber) {
 		}
 	}
       
-	  findFactorial(fancynumber)
+	  findFactorial(fancynumber);
 	  
       /*testing code */
         
