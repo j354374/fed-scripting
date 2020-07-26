@@ -42,6 +42,8 @@ function echo(fancynumber) {
 		}
 	}
       
+	  findFactorial(fancynumber)
+	  
       /*testing code */
         
   }    
