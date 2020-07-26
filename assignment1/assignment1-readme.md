@@ -14,6 +14,14 @@ Student id: j354374
 ## Stage 1: Laying the foundations
 &#x1F535;
 
+### Directory structure
+
+The project is layed out with the following directory structure:
+
+![Directory structure}(dir.PNG)
+
+
+
 First the javascript application is built by creating the html document backbone and we introduce functionality in different stages.
 In stage 1 this is just html with the use of the table function [[1]](#1) with the &lt;tr&gt; (table row) and &lt;td&gt; (table data) tags.
 We have one text input box [[2]](#2) but no button as yet.
