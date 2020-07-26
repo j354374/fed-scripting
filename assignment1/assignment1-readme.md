@@ -336,7 +336,7 @@ fancyfactorial = factorial(fancynumber);
 
 ![stage4-partx](readme_files/screenshot15.PNG)
 
-
+:loop:
 
 ```
 * testing code */
@@ -375,6 +375,8 @@ In order to help troubleshoot the code for now the line has been commented out:
 /*	document.getElementById("factorial").value(fact);*/
 ```
 
+The following is now produced in the console. 
+:flashlight:
 
 ![stage4-partx](readme_files/screenshot17.PNG)
 
