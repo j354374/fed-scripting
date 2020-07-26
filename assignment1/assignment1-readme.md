@@ -369,6 +369,12 @@ findFactorial(fancynumber);
 
 ![stage4-partx](readme_files/screenshot16.PNG)
 
+In order to help troubleshoot the code for now the line has been commented out:
+
+```
+/*	document.getElementById("factorial").value(fact);*/
+```
+
 ## References
 
 <a id="1">[1]</a> 
