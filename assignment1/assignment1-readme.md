@@ -349,6 +349,9 @@ fancyfactorial = factorial(fancynumber);
 
 ![stage4-partx](readme_files/screenshot15.PNG)
 
+![nassi shneiderman diagram- factorial](readme_files/factorial-ns.PNG)
+
+
 :loop:
 
 ```
