@@ -393,7 +393,7 @@ The line that was commented out has been rewritten as:
 ```
 document.getElementById("factorial").value = fact;
 ```
-
+:fireworks:
 ![stage4-partx](readme_files/screenshot18.PNG)
 
 ## References
