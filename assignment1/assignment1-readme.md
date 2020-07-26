@@ -364,6 +364,9 @@ fancyfactorial = factorial(fancynumber);
       /*testing code */
  ```     
 
+
+![stage4-partx](readme_files/screenshot16.PNG)
+
 ## References
 
 <a id="1">[1]</a> 
