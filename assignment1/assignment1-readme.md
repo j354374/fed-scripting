@@ -380,6 +380,10 @@ In order to help troubleshoot the code for now the line has been commented out:
 /*	document.getElementById("factorial").value(fact);*/
 ```
 
+```
+document.getElementById("factorial").value = fact;
+```
+
 The following is now produced in the console. 
 :flashlight:
 
