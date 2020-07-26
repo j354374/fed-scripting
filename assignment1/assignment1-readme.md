@@ -18,7 +18,7 @@ Student id: j354374
 
 The project is layed out with the following directory structure:
 
-![Directory structure](dir.PNG)
+![Directory structure](readme_files/dir.PNG)
 
 
 
