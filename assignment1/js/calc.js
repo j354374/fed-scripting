@@ -38,7 +38,7 @@ function echo(fancynumber) {
 		
 			//put the below lines of code out of this 'for loop' to show only the total value
             
-			document.getElementById("factorial").value(fact);
+		/*	document.getElementById("factorial").value(fact);*/
 		}
 	}
       
