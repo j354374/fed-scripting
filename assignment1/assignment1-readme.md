@@ -357,9 +357,14 @@ fancyfactorial = factorial(fancynumber);
 
 ![stage4-partx](readme_files/screenshot15.PNG)
 
+As there is no inbuilt factorial function in javascript we will need to write our own function. From the assignment sheet:
+>A factorial is the product of an integer and all the integers below it; e.g., the factorial of 4 is equal to 24 (4 * 3 * 2 * 1).
+
+We then desgin a nassi shniederman diagram (psuedocode) to find the factorial via an iterative for loop.
+
 ![nassi shneiderman diagram- factorial](readme_files/factorial-ns.PNG)
 
-
+We can now write our JavaScript code as follows:
 :loop:
 
 ```
