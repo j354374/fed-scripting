@@ -1,5 +1,5 @@
 :beginner:\
-Assignment 1: Front-End Scripting\
+Portfolio Activity - Task 1 – Simple Variables\
 Name: Christopher Paul Caston\
 Student id: j354374
 
