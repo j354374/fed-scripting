@@ -516,3 +516,7 @@ https://stackoverflow.com/questions/3959211/what-is-the-fastest-factorial-functi
 https://www.w3schools.com/js/js_function_invocation.asp
 
 https://purecss.io/
+
+math object:
+
+https://www.w3schools.com/js/js_math.asp
