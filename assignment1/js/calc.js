@@ -46,6 +46,17 @@ function echo(fancynumber) {
 	  findFactorial(fancynumber);
 	  
       /*testing code */
+	  
+    // now find the sqaure root and cubed
+
+    /*  let fancysquared;
+      let fancycubed; 
+
+      fancysquared = math.sqrt(fancynumber);
+      fancycubed = math.cbrt(fancynumber);
+
+      document.getElementById("squared").value = fancysquared;
+      document.getElementById("cubed").value = fancycubed; */	  
         
   }    
     
