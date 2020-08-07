@@ -1,0 +1,60 @@
+html {
+  background: lightblue;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.box1 {
+  background: pink;
+}
+
+.box2 {
+  background: red;
+}
+
+.box3 {
+  background: firebrick;
+}
+
+.box4 {
+  background: orange;
+}
+
+.box5 {
+  background: yellow;
+}
+
+.box6 {
+  background: lime;
+}
+
+.box7 {
+  background: green;
+}
+
+.box8 {
+  background: blue;
+}
+
+.box9 {
+  background: purple;
+}
+
+.box-none {
+  float: none;
+}
+
+.box-left {
+  float: left;
+}
+
+.box-right {
+  float: right;
+}
+
+.box-clear{
+  clear: both;
+}
