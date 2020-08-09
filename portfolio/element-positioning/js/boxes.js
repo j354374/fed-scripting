@@ -53,8 +53,8 @@ if (counter >= 10)
 {
 reload = 1;
 }
-else {
-html = html.concat( `<div class="box box${counter} box-${boxarray[0][1]}">
+else { // added [0][0][1]
+html = html.concat( `<div class="box box${counter} box-${boxarray[0][1]} box-${boxarray[0][0][1]}">
 <em>float</em>
 <select name="box${counter}-properties" id="box${counter}-properties">
 <option value="none">none</option>
