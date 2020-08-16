@@ -162,6 +162,8 @@ The line /*jslint browser:true */ was added to let the validator know the code w
 
 The HTMl file was validated using the [W3 validator service](https://validator.w3.org/) and gave the message: **Document checking completed. No errors or warnings to show.**
 
+Please note the below are GIF animations. To see them running please visit: https://github.com/j354374/fed-scripting/blob/master/task2/readme.md
+
 Example running in Firefox:\
 ![Firefox](readme_files/GIFrecord-Firefox.gif)
 
