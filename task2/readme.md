@@ -178,4 +178,4 @@ https://www.w3schools.com/jsref/prop_node_textcontent.asp \
 https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent \
 https://www.w3schools.com/jsref/prop_node_textcontent.asp \
 https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML \
-https://www.w3schools.com/jsref/prop_html_innerhtml.asp \
+https://www.w3schools.com/jsref/prop_html_innerhtml.asp 
