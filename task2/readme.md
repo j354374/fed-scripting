@@ -45,7 +45,7 @@ We now see the following for each number of years entered:
 
 ![first calculation](readme_files/calculation1.png)
 ![second calculation](readme_files/calculation2.png)
-![third calculation](readme_files/calculation3.png)
+(Sorry the third screenshot was lost)
 ![fourth calculation](readme_files/calculation4.png)
 ![fifth calculation](readme_files/calculation5.png)
 ![sixth calculation](readme_files/calculation6.png)
