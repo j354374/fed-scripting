@@ -43,12 +43,12 @@ After checking the w3 schools website the switch statement was rewritten to have
 
 We now see the following for each number of years entered:
 
-![first calculation](readme_files/calcuation1.png)
-![second calculation](readme_files/calcuation2.png)
-![third calculation](readme_files/calcuation3.png)
-![fourth calculation](readme_files/calcuation4.png)
-![fifth calculation](readme_files/calcuation5.png)
-![sixth calculation](readme_files/calcuation6.png)
+![first calculation](readme_files/calculation1.png)
+![second calculation](readme_files/calculation2.png)
+![third calculation](readme_files/calculation3.png)
+![fourth calculation](readme_files/calculation4.png)
+![fifth calculation](readme_files/calculation5.png)
+![sixth calculation](readme_files/calculation6.png)
 
 As we see the sixth calculation does not give a discount. Every purchase of membership five years or greater requires the 20% discount.
 To achieve this we add an if statement as follows:
