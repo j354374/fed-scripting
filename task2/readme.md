@@ -134,7 +134,7 @@ This is not working as expected as showing in the following screenshot:
 On closer inspection I hadn't yet added the JavaScript above to the membership.js file.
 I have now done so and the code looks like this:
 
-![updated-code](readme_files/readme_files/updated-code.png)
+![updated-code](/readme_files/updated-code.png)
 
 And the screen looks like this:
 
@@ -156,6 +156,7 @@ Complete this form to calculate your membership. There's a 10% discount if you e
 "Enrol" is the spelling in British English.
 
 I have now validated and fixed small coding errors such as in spacing an indentation using [Code Beautify](https://codebeautify.org/jsvalidate).
+The line /*jslint browser:true */ was added to let the validator know the code was running in a browser and accessing the DOM.
 
 ![finalvalid](readme_files/finalvalidation.png)
 
