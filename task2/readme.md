@@ -114,8 +114,7 @@ We now get the following rendered on the page:
 and when we enter a number and click "Calculate":\
 ![second-page](readme_files/textContent-calculate.png)
 
-So now we need to do the same with innerText. "The innerText property returns just the text, without spacing and inner element tags. " -reference
-
+So now we need to do the same with innerText. The innerText property returns just the text, without spacing and inner element tags.
 ```
 // Show the total amount but using innerText:
 document.getElementById('cost-print2').innerText = '$' + cost.toFixed(2);
