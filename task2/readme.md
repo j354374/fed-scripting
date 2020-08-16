@@ -164,6 +164,7 @@ The HTMl file was validated using the [W3 validator service](https://validator.w
 
 Example running in Firefox:
 
+![Firefox](readme_files/GIFrecord-Firefox.gif)
 Example running in Chrome:
 
 Example running in Midori:
