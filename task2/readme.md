@@ -110,7 +110,7 @@ document.getElementById('cost-print').textContent = 'Please enter valid values.'
 
 We now get the following rendered on the page:
 
-![first-page](readme_files/textContent-default.png)
+![first-page](readme_files/textContent-default.png)\
 and when we enter a number and click "Calculate":
 ![second-page](readme_files/textContent-calculate.png)
 
