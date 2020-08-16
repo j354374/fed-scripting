@@ -44,8 +44,8 @@ After checking the w3 schools website the switch statement was rewritten to have
 We now see the following for each number of years entered:
 
 ![first calculation](readme_files/calculation1.png)
-![second calculation](readme_files/calculation2.png)
-(Sorry the third screenshot was lost)
+![second calculation](readme_files/calculation2.png)\
+(Sorry the third screenshot was lost)\
 ![fourth calculation](readme_files/calculation4.png)
 ![fifth calculation](readme_files/calculation5.png)
 ![sixth calculation](readme_files/calculation6.png)
