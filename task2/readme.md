@@ -166,7 +166,7 @@ Example running in Firefox:\
 ![Firefox](readme_files/GIFrecord-Firefox.gif)
 
 Example running in Chrome:\
-![Firefox](readme_files/GIFrecord-Chrome.gif)
+![Chrome](readme_files/GIFrecord-Chrome.gif)
 
 
 references:
