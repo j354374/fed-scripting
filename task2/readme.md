@@ -1,5 +1,5 @@
 :beginner:\
-Portfolio Activity - Task 2 – Simple Variables\
+Portfolio Activity - Task 2 – Control Structures\
 Name: Christopher Paul Caston\
 Student id: j354374
 
