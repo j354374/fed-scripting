@@ -43,21 +43,21 @@ After checking the w3 schools website the switch statement was rewritten to have
 
 We now see the following for each number of years entered:
 
-![first calculation](calcuation1.png)
-![second calculation](calcuation2.png)
-![third calculation](calcuation3.png)
-![fourth calculation](calcuation4.png)
-![fifth calculation](calcuation5.png)
-![sixth calculation](calcuation6.png)
+![first calculation](readme_files/calcuation1.png)
+![second calculation](readme_files/calcuation2.png)
+![third calculation](readme_files/calcuation3.png)
+![fourth calculation](readme_files/calcuation4.png)
+![fifth calculation](readme_files/calcuation5.png)
+![sixth calculation](readme_files/calcuation6.png)
 
 As we see the sixth calculation does not give a discount. Every purchase of membership five years or greater requires the 20% discount.
 To achieve this we add an if statement as follows:
 
-![if statement](if-statement.png)
+![if statement](readme_files/if-statement.png)
 
 We now see the correct output as follows:
 
-![correct-output.png](correct-output.png)
+![correct-output.png](readme_files/correct-output.png)
 
 
 ## Stage 3: Instruction 2  
@@ -110,9 +110,9 @@ document.getElementById('cost-print').textContent = 'Please enter valid values.'
 
 We now get the following rendered on the page:
 
-![first-page](textContent-default.png)
+![first-page](readme_files/textContent-default.png)
 and when we enter a number and click "Calculate":
-![second-page](textContent-calculate.png)
+![second-page](readme_files/textContent-calculate.png)
 
 So now we need to do the same with innerText. "The innerText property returns just the text, without spacing and inner element tags. " -reference
 
@@ -129,16 +129,16 @@ Your membership cost is <span id="cost-print2">?</span>
 ```
 This is not working as expected as showing in the following screenshot:
 
-![Not showing result](inner-text-not-calc.png)
+![Not showing result](readme_files/inner-text-not-calc.png)
 
 On closer inspection I hadn't yet added the JavaScript above to the membership.js file.
 I have now done so and the code looks like this:
 
-![updated-code](readme_files/updated-code.png)
+![updated-code](readme_files/readme_files/updated-code.png)
 
 And the screen looks like this:
 
-![updated-screen](updatedagain.png)
+![updated-screen](readme_files/updatedagain.png)
 
 ## Stage 4: Instruction 3  
 **Test your script in at least two browsers and document any debugging plus version control of your script**
