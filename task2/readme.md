@@ -111,7 +111,7 @@ document.getElementById('cost-print').textContent = 'Please enter valid values.'
 We now get the following rendered on the page:
 
 ![first-page](readme_files/textContent-default.png)\
-and when we enter a number and click "Calculate":
+and when we enter a number and click "Calculate":\
 ![second-page](readme_files/textContent-calculate.png)
 
 So now we need to do the same with innerText. "The innerText property returns just the text, without spacing and inner element tags. " -reference
