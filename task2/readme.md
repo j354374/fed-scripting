@@ -7,7 +7,7 @@ Student id: j354374
 - [ Stage 2: Instruction 1](#Stage-2-Instruction-1)
 - [ Stage 3: Instruction 2](#Stage-3-Instruction-2)
 - [ Stage 4: Instruction 3](#Stage-4-Instruction-3)
-- [ References](#references-)
+- [ References](#References)
 
 ## Stage 1:
 &#x1F535;
