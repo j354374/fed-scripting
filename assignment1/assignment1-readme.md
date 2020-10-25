@@ -637,7 +637,7 @@ It now looks like the following:
 I have set the javascript as follows:
 
 ```
-// Portoflio Assignment Task 1
+// Portfolio Assignment Task 1
 /*Create a special calculator that read a number from the user, checks that it is an integer and performs a series of mathematical calculations as listed:
 calculates the number's factorial. A factorial is the product of an integer and all the integers below it; e.g., the factorial of 4 is equal to 24 (4 * 3 * 2 * 1).
 Calculate the square and cube of the number. A number squared is a number that is multiplied by itself; e.g., 22 is equal to 4 (2 * 2). A number cubed is a number that is multiplied by itself twice e.g., 23 is equal to 8 (2 * 2 * 2).
@@ -755,7 +755,7 @@ Unfortunately with this I am still getting a type error as follows:
 I have made further changes to the JavaScript. I have created an event function called onSubmit containing an event.preventDefault function and then starting the calculate function. I have changed the getElement by ID statement too. Please see the following code snippet:
 
 ```
-// Portoflio Assignment Task 1
+// Portfolio Assignment Task 1
 /*Create a special calculator that read a number from the user, checks that it is an integer and performs a series of mathematical calculations as listed:
 calculates the number's factorial. A factorial is the product of an integer and all the integers below it; e.g., the factorial of 4 is equal to 24 (4 * 3 * 2 * 1).
 Calculate the square and cube of the number. A number squared is a number that is multiplied by itself; e.g., 22 is equal to 4 (2 * 2). A number cubed is a number that is multiplied by itself twice e.g., 23 is equal to 8 (2 * 2 * 2).
