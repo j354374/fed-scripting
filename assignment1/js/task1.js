@@ -45,6 +45,7 @@ function calculate(){
 function init(){
     // Add an event listener to the form:
     
+document.getElementById('calc-btn').addEventListener("click", calculate);
 
 }  // End of init() function.
 
