@@ -417,6 +417,23 @@ The line that was commented out has been rewritten as:
 ```
 document.getElementById("factorial").value = fact;
 ```
+
+
+----
+Please note the above line marks a break of about 3 months. I am now continuing with the assignment.
+
+Line 24 in the HTML is now changed from:
+
+ ```
+ <button type="button" onclick="echo(fancynumber.value)">Calculate!</button><br>
+ ```
+ to:
+ 
+ ```  
+ <button type="button" id="calc-btn">Calculate!</button><br>
+ ```
+
+
 :fireworks:
 ![stage4-partx](readme_files/screenshot18.PNG)
 
