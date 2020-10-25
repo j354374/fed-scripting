@@ -516,7 +516,7 @@ Unfortunately this has given us the following output:
 
 
 
-I have decided to start again using the task1.js file included with the assignment. Plaease see as follows:
+I have decided to start again using the task1.js file included with the assignment. Please see as follows:
 
 
 ```
