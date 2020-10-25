@@ -432,7 +432,7 @@ Line 24 in the HTML is now changed from:
  ```  
  <button type="button" id="calc-btn">Calculate!</button><br>
  ```
-I have done this to remove all the javascript from the HTML file and use an on-click listening in the JavaScript file.
+I have done this to remove all the javascript from the HTML file and use an on-click listening in the JavaScript file. I have also removed commented out code that is no longer used.
 
 I have now changed the code to the following:
 
@@ -511,7 +511,7 @@ window.onload = init;
 
 
 :fireworks:
-![stage4-partx](readme_files/screenshot18.PNG)
+
 
 ## References
 
