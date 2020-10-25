@@ -510,6 +510,12 @@ window.onload = init;
 ```
 
 
+Unfortunately this has given us the following output:
+
+![mouse-event](readme_files/mouse-event.png)
+![input-invalid](readme_files/invalid.png)
+
+
 :fireworks:
 
 
