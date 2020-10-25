@@ -752,7 +752,7 @@ Unfortunately with this I am still getting a type error as follows:
 ![uncaught type error](readme_files/type-error.png)
 
 
-I have made further changes to the JavaScript. I have created an event function called onSubmit containing an event.preventDefault function and then starting the calculate function. I have changed the getElement by ID statement too. Please see the following code snippet:
+I have made further changes to the JavaScript. I have created an event function called onSubmit containing an event.preventDefault function and then starting the calculate function. I have changed the getElement by ID statement too. Please see the following code:
 
 ```
 // Portfolio Assignment Task 1
