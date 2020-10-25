@@ -697,10 +697,55 @@ window.onload = init;
 
 ```
 
-However, there is an issue that the page is refreshing when a value has been entered and the calculate function is not running. 
+However, there is an issue that the page is refreshing when a value has been entered and the calculate function is not running. This happened despite using return false and use strict.
 
 I am going to make a much simpler html page as follows:
 
+```
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Simple Calculator</title>
+<link href="css/task1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<main>
+
+<h1>Front-end Development Scripting</h1>
+    <h2>Portfolio Task 1: Simple Variables</h2>
+
+    <form id="main">
+  <em>Please enter a number between 0 and 50:</em>
+  <input name="numInput" input type="number" min="1" max="50" placeholder="example: 3">
+  <button name="addButton">Calculate!</button><p>
+  <br><label>The Factorial (!) of your number is:
+    <input type="text" name="factorial" id="factorial">
+  </label>
+</p>
+<p>
+  <label>The square (&sup2;) of your number is:
+    <input type="text" name="squared" id="squared">
+  </label>
+</p>
+<p>
+  <label>The cube (&#xB3;) of your number is:
+    <input type="text" name="cubed" id="cubed">
+  </label>
+</p>
+</form>
+
+
+
+</main>
+<footer>
+<!--- Script 2.1 - template.html -->
+<script src="js/task1.js"></script>
+</footer>
+</body>
+</html>
+```
 
 
 :fireworks:
