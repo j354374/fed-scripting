@@ -749,7 +749,7 @@ I am going to make a much simpler html page as follows:
 
 Unfortunately with this I am still getting a type error as follows:
 
-![uncaught type error](type-error.png)
+![uncaught type error](readme_files/type-error.png)
 
 :fireworks:
 
