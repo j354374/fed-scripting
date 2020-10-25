@@ -592,16 +592,18 @@ It now looks like the following:
 
 <h1>Front-end Development Scripting</h1>
     <h2>Portfolio Task 1: Simple Variables</h2>
-    <form name="theForm" method="post" action="">
+    <form name="theForm">
       <fieldset>
         <legend>Fancy Calculator</legend>
         <p>
           <label>
             Please enter a number between 0 and 50</label>
-          <input type="number" name="number" id="number" value="0" min="1" required>
+          <input type="number" name="number" id="number" value="0" min="1" max="50" required>
         </p>
         <p>
-          <input type="submit" name="calculate" id="calculate" value="Calculate"></p>
+          <button id="calc-btn">Calculate</button>
+
+          </p>
         <p>
           <label>The Factorial (!) of your number is:
             <input type="text" name="factorial" id="factorial">
@@ -619,9 +621,9 @@ It now looks like the following:
         </p>
       </fieldset>
     </form>
- 
 
-  
+
+
 </main>
 <footer>
 <!--- Script 2.1 - template.html -->
@@ -629,7 +631,76 @@ It now looks like the following:
 </footer>
 </body>
 </html>
+
 ```
+
+I have set the javascript as follows:
+
+```
+// Portoflio Assignment Task 1
+/*Create a special calculator that read a number from the user, checks that it is an integer and performs a series of mathematical calculations as listed:
+calculates the number's factorial. A factorial is the product of an integer and all the integers below it; e.g., the factorial of 4 is equal to 24 (4 * 3 * 2 * 1).
+Calculate the square and cube of the number. A number squared is a number that is multiplied by itself; e.g., 22 is equal to 4 (2 * 2). A number cubed is a number that is multiplied by itself twice e.g., 23 is equal to 8 (2 * 2 * 2).
+*/
+
+// Function called when the form is submitted.
+// Function performs the calculations and returns false.
+function calculate(){
+
+
+		// For storing the factorial, squared and cubed results:
+
+
+		console.log("calc started");
+
+		  // Get references to the form value:
+
+
+		  // Add validation here later!
+
+		 // Calculate the factorial results:
+		 //HINT: the factorial of 0 is 1.
+
+
+		 // Calculate the squared results:
+
+
+
+		  // Calculate the cubed results:
+
+
+
+
+		  //display factorial, squared and cubed results
+
+
+	// Return false to prevent submission:
+	return false;
+  //event.preventDefault();
+
+}// End of calculate() function.
+
+// Function called when the window has been loaded.
+// Function needs to add an event listener to the form.
+function init(){
+	  'use strict';
+    // Add an event listener to the form:
+
+document.getElementById("calc-btn").addEventListener("click", calculate);
+
+}  // End of init() function.
+
+// Assign an event listener to the window's load event:
+
+
+window.onload = init;
+
+```
+
+However, there is an issue that the page is refreshing when a value has been entered and the calculate function is not running. 
+
+I am going to make a much simpler html page as follows:
+
 
 
 :fireworks:
