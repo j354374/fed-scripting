@@ -576,7 +576,60 @@ document.getElementById('calc-btn').addEventListener("click", calculate);
 
 I will now modify the html file to make operate the same as the one included in the assignment.
 
+It now looks like the following:
 
+```
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Simple Calculator</title>
+<link href="css/task1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<main>
+
+<h1>Front-end Development Scripting</h1>
+    <h2>Portfolio Task 1: Simple Variables</h2>
+    <form name="theForm" method="post" action="">
+      <fieldset>
+        <legend>Fancy Calculator</legend>
+        <p>
+          <label>
+            Please enter a number between 0 and 50</label>
+          <input type="number" name="number" id="number" value="0" min="1" required>
+        </p>
+        <p>
+          <input type="submit" name="calculate" id="calculate" value="Calculate"></p>
+        <p>
+          <label>The Factorial (!) of your number is:
+            <input type="text" name="factorial" id="factorial">
+          </label>
+        </p>
+        <p>
+          <label>The square (&sup2;) of your number is:
+            <input type="text" name="squared" id="squared">
+          </label>
+        </p>
+        <p>
+          <label>The cube (&#xB3;) of your number is:
+            <input type="text" name="cubed" id="cubed">
+          </label>
+        </p>
+      </fieldset>
+    </form>
+ 
+
+  
+</main>
+<footer>
+<!--- Script 2.1 - template.html -->
+<script src="js/task1.js"></script>
+</footer>
+</body>
+</html>
+```
 
 
 :fireworks:
