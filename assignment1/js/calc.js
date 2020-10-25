@@ -1,7 +1,5 @@
 /* calc.js */
 
-console.log("Hello");
-
 
 function echo(fancynumber) {
     alert("You entered: " + fancynumber + "!");
@@ -33,8 +31,8 @@ function echo(fancynumber) {
             
 		
 			document.getElementById("factorial").value = fact;
-		}
-	}
+		} //end for loop
+	} //end else
       
 	  findFactorial(fancynumber);
 	  
@@ -51,7 +49,7 @@ function echo(fancynumber) {
       document.getElementById("squared").value = fancysquared;
       document.getElementById("cubed").value = fancycubed; */	  
         
-  }    
+  }    // end function
     
     
   /*  if (typeof fancynumber !== 'number')
@@ -62,6 +60,7 @@ function echo(fancynumber) {
 
 function init() {
 
+document.getElementById('calc-btn').addEventListener("click", echo);
   
 } // End of init() function.
 
