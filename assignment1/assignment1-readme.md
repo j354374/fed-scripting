@@ -747,6 +747,9 @@ I am going to make a much simpler html page as follows:
 </html>
 ```
 
+Unfortunately with this I am still getting a type error as follows:
+
+![uncaught type error](type-error.png)
 
 :fireworks:
 
