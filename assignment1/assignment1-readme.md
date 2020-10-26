@@ -960,6 +960,10 @@ findCubed();
 ```
 
 
+As we can see from the following the program is now [Complete](https://j354374.github.io/fed-scripting/assignment1/):
+
+![complete](readme_files/complete.png)
+
 :fireworks:
 
 
@@ -1022,7 +1026,7 @@ references
 
 
 
-
+https://www.codegrepper.com/code-examples/delphi/calculate+square+of+a+number+js
 
 https://stackoverflow.com/questions/7789521/how-to-link-external-javascript-file-onclick-of-button
 
