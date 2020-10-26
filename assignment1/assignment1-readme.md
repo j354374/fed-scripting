@@ -936,6 +936,29 @@ and the factorial is displayed as follows:
 
 ![factorial](readme_files/factorial.png)
 
+I have now used the Javascript Math function with pow (power of) to build functions to get the square and the cubed of the number. 
+```
+ function findSquare(fancynumber) { //start function
+	 console.log("findSquare function started");
+	var fancySquare = Math.pow(4,2);
+	console.log(fancySquare);
+	document.getElementById("squared").value = fancySquare;
+ } //end function
+
+findSquare();
+		  // Calculate the cubed results:
+
+
+			function findCubed(fancynumber) { //start function
+			console.log("findCubed function started");
+			var fancyCubed = Math.pow(4,3);
+			console.log(fancyCubed);
+			document.getElementById("cubed").value = fancyCubed;
+			} //end function
+
+findCubed();
+```
+
 
 :fireworks:
 
