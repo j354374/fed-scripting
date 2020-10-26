@@ -996,7 +996,7 @@ This has now been fixed as following:
 
     findCubed();
     
-    ```
+ ```
 
 :fireworks:
 
