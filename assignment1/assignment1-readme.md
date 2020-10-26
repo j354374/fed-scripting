@@ -960,9 +960,42 @@ findCubed();
 ```
 
 
-As we can see from the following the program is now [Complete](https://j354374.github.io/fed-scripting/assignment1/):
+Unfortunately there is still an issue as the fancynumber vairable was not being used in the square and cubed functions and instead math.pow was running on hard coded numbers.
 
-![complete](readme_files/complete.png)
+![incomplete](readme_files/complete.png)
+
+
+This has now been fixed as following:
+
+```
+  // Calculate the squared results:
+
+    function findSquare(fancynumber) { //start function
+      const f = document.forms.main;
+      var fancynumber = f.numInput.value;
+      console.log(fancynumber);
+        console.log("findSquare function started");
+        var fancySquare = Math.pow(fancynumber, 2);
+        console.log(fancySquare);
+        document.getElementById("squared").value = fancySquare;
+    } //end function
+
+    findSquare();
+    // Calculate the cubed results:
+
+
+    function findCubed(fancynumber) { //start function
+        const f = document.forms.main;
+        var fancynumber = f.numInput.value;
+        console.log(fancynumber);
+        console.log("findCubed function started");
+        var fancyCubed = Math.pow(fancynumber, 3);
+        console.log(fancyCubed);
+        document.getElementById("cubed").value = fancyCubed;
+    } //end function
+
+    findCubed();
+    ```
 
 :fireworks:
 
