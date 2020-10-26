@@ -12,7 +12,7 @@ function onSubmit(event) {
 }
 
 
-function calculate() {
+function calculate() { //start function calculate
 
 
     // For storing the factorial, squared and cubed results:
@@ -65,8 +65,11 @@ function calculate() {
     // Calculate the squared results:
 
     function findSquare(fancynumber) { //start function
+      const f = document.forms.main;
+      var fancynumber = f.numInput.value;
+      console.log(fancynumber);
         console.log("findSquare function started");
-        var fancySquare = Math.pow(4, 2);
+        var fancySquare = Math.pow(fancynumber, 2);
         console.log(fancySquare);
         document.getElementById("squared").value = fancySquare;
     } //end function
@@ -76,8 +79,11 @@ function calculate() {
 
 
     function findCubed(fancynumber) { //start function
+        const f = document.forms.main;
+        var fancynumber = f.numInput.value;
+        console.log(fancynumber);
         console.log("findCubed function started");
-        var fancyCubed = Math.pow(4, 3);
+        var fancyCubed = Math.pow(fancynumber, 3);
         console.log(fancyCubed);
         document.getElementById("cubed").value = fancyCubed;
     } //end function
