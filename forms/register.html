@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/newform.css">
+</head>
+<body>
+    <!-- register.html -->
+    <div class="container">
+    <form id="form" class="form">
+		  <fieldset><legend>Register</legend>
+			<p>All fields are required.</p>
+
+		<div class="form-control">
+			<label for="firstName">First Name</label><input type="text" placeholder="First name" id="firstName">
+
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+
+				<div class="form-control">
+			<label for="lastName">Last Name</label><input type="text" placeholder="Last name" id="lastName">
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+
+
+
+		<div class="form-control">
+			<label for="email">Email</label> <a class="tooltip">
+          <img src="/images/info-circle5.svg" alt="info">
+          <span>
+            <div class="infobox">Enter a valid e-mail address in the form user@example.com</div>
+          </span>
+      </a>
+			<input type="email" placeholder="username@example.com" id="email" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+
+	<div class="form-control"><label for="phone">Phone Number</label>
+    <a class="tooltip">
+        <img src="/images/info-circle5.svg" alt="info">
+        <span>
+          <div class="infobox">Enter a 10 digit phone number including area code.</div>
+        </span>
+    </a>
+    <input type="text" name="phone" id="phone">
+		<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+	</div>
+
+<div class="form-control"><label for="city">City</label><a class="tooltip">
+    <img src="/images/info-circle5.svg" alt="info">
+    <span>
+      <div class="infobox">Please enter your city name.</div>
+    </span>
+</a><input type="text" name="city" id="city">
+	<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+</div>
+
+	<div class="form-control"><label for="state">State</label><select name="state" id="state">
+				<option value="NA">Select a State</option>
+				<option value="WA">Western Australia</option>
+				<option value="SA">South Australia</option>
+				<option value="NT">Northern Teritory</option>
+				<option value="QLD">Queensland</option>
+				<option value="NSW">New South Wales</option>
+				<option value="VIC">Victoria</option>
+		<option value="TAS">Tasmania</option>
+		<option value="ACT">Canberra</option>
+			</select>
+		<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+
+			</div>
+			  	<div class="form-control"><label for="zip">Zip Code</label><a class="tooltip">
+              <img src="/images/info-circle5.svg" alt="info">
+              <span>
+                <div class="infobox">Enter a 4 digit area code.</div>
+              </span>
+          </a><input type="text" name="zip" id="zip">
+<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+
+
+
+			  	</div>
+			  <div class="form-control"><input type="checkbox" name="terms" id="terms"> I agree to the terms, whatever they are.
+<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+			  </div>
+
+			  <br>
+
+
+
+			  <button>Submit</button></fieldset>
+
+	</form></div>
+    <script src="js/register.js"></script>
+</body>
+</html>
