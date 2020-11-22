@@ -3,16 +3,16 @@ function init() {
 	'use strict';
 
 	function lnShare(fs) { // function to render the script that renders the LinkedIn button
-		console.log("lnShare started");
+
 		const ln = document.createElement('script');
 		ln.id = "LN";
 		ln.type = "IN/Share";
-		console.log(fs);
+
 		ln.setAttribute("data-url", fs); //changed from fs.href to just fs to get working
-		console.log(ln);
+
 		return ln;
 	}
-	//include function for twitter widgets
+	//include function for twitter widgets supplied by Twitter
 	(function(d, s, id) {
 		var js, fjs = d.getElementsByTagName(s)[0];
 		if(!d.getElementById(id)) {
@@ -21,19 +21,18 @@ function init() {
 			js.src = "https://platform.twitter.com/widgets.js";
 			fjs.parentNode.insertBefore(js, fjs);
 		}
-	}(document, "script", "twitter-wjs"));
+	}(document, "script", "twitter-wjs"));//end code for twitter widgets
 	document.getElementById('twitter-wjs').addEventListener('load', function() {
 		const root = "https://www.onetonline.org/link/summary/";
 		//const twt = "https://twitter.com/intent/tweet?url=";
-		const fs = document.createElement('a');
+		const fs = document.createElement('a'); // creates the anchor for the link to the functional skills page
 		fs.id = "FS";
 		const linkText = document.createTextNode("functional skills");
 		fs.appendChild(linkText);
 		fs.classList.add("hide");
 		fs.title = "functional skills";
 		fs.href = "https://www.onetonline.org/link/summary/";
-		//document.body.appendChild(fs);
-		document.getElementById("p1").appendChild(fs);
+	  document.getElementById("p1").appendChild(fs);
 		document.getElementById("container").addEventListener("click", function(e) {
 			const tgt = e.target;
 			const isSummary = tgt.tagName === "SUMMARY";
@@ -48,8 +47,7 @@ function init() {
 				});
 				document.getElementById("p3").innerHTML = ""; // clear the previous LinkedIn button
 				const ln = lnShare(fs.href);
-				console.log('ln:');
-				console.log(ln);
+
 				document.getElementById("p3").appendChild(ln);
 				IN.parse();
 			} // end if
