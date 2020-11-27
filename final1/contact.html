@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SHT Jobs board</title>
+
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/newform.css">
+<link href="css/icofont.min.css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrapper">
+	 <header>
+		 <h1><abbr title="Synthesized Hiring Technology">SHT</abbr> Jobs</h1><i class="icofont-search-job icofont-3x"></i><br>
+<blockquote>"It's better to buy the rough and find the diamond than buy the diamond and find the rough."</blockquote>
+	 </header>
+
+	 <nav>
+		 <ul id="nav-ul">
+		 <li><a href="index.html"><span>Jobs</span><i class="icofont-home icofont-3x"></i></a></li>
+		 <li><a href="data.html"><span>Data-sources</span><i class="icofont-data icofont-3x"></i></a></li>
+			<li><a href="reports.html"><span>Reports</span> <i class="icofont-law-document icofont-3x"></i></a></li>
+			<li><a href="contact.html"><span>Contact</span> <i class="icofont-ui-contact-list icofont-3x"></i></a></li>
+			<li><a href="about.html"><span>About</span> <i class="icofont-labour icofont-3x"></i></a></li>
+		</ul>
+	 </nav>
+	<main>
+	<section class="contact-section">
+
+		<!-- register.html -->
+		    <div class="container">
+		    <form id="form" class="form">
+				  <fieldset><legend>Contact Us:</legend>
+					<p>All fields are required.</p>
+
+				<div class="form-control">
+					<label for="firstName">First Name</label><input type="text" placeholder="First name" id="firstName">
+
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error message</small>
+				</div>
+
+						<div class="form-control">
+					<label for="lastName">Last Name</label><input type="text" placeholder="Last name" id="lastName">
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error message</small>
+				</div>
+
+
+
+				<div class="form-control">
+					<label for="email">Email</label> <a class="tooltip">
+		          <img src="./images/info-circle5.svg" alt="info">
+		          <span>
+		            <div class="infobox">Enter a valid e-mail address in the form user@example.com</div>
+		          </span>
+		      </a>
+					<input type="email" placeholder="username@example.com" id="email" />
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error message</small>
+				</div>
+
+			<div class="form-control"><label for="phone">Phone Number</label>
+		    <a class="tooltip">
+		        <img src="./images/info-circle5.svg" alt="info">
+		        <span>
+		          <div class="infobox">Enter a 10 digit phone number including area code.</div>
+		        </span>
+		    </a>
+		    <input type="text" name="phone" id="phone">
+				<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error message</small>
+			</div>
+
+		<div class="form-control"><label for="city">City</label><a class="tooltip">
+		    <img src="./images/info-circle5.svg" alt="info">
+		    <span>
+		      <div class="infobox">Please enter your city name.</div>
+		    </span>
+		</a><input type="text" name="city" id="city">
+			<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error message</small>
+		</div>
+
+			<div class="form-control"><label for="state">State</label><select name="state" id="state">
+						<option value="NA">Select a State</option>
+						<option value="WA">Western Australia</option>
+						<option value="SA">South Australia</option>
+						<option value="NT">Northern Teritory</option>
+						<option value="QLD">Queensland</option>
+						<option value="NSW">New South Wales</option>
+						<option value="VIC">Victoria</option>
+				<option value="TAS">Tasmania</option>
+				<option value="ACT">Canberra</option>
+					</select>
+				<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error message</small>
+
+					</div>
+					  	<div class="form-control"><label for="zip">Zip Code</label><a class="tooltip">
+		              <img src="./images/info-circle5.svg" alt="info">
+		              <span>
+		                <div class="infobox">Enter a 4 digit area code.</div>
+		              </span>
+		          </a><input type="text" name="zip" id="zip">
+		<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error message</small>
+</div>
+<div class="form-control"><label for="reason">Subject:</label><select name="reason" id="reason">
+      <option value="NA">Request reason</option>
+      <option value="1">Website Technical Support</option>
+      <option value="2">Data source enquiry</option>
+      <option value="3">Suggestions</option>
+      <option value="4">Media query</option>
+      <option value="5">Accessability</option>
+      <option value="6">Other</option>
+    </select>
+  <i class="fas fa-check-circle"></i>
+    <i class="fas fa-exclamation-circle"></i>
+    <small>Error message</small>
+
+    </div>
+<div class="form-control">
+	<label for="comments">Comments:</label><br>
+
+	<textarea name="comments" rows="12" cols="110" id="comments"></textarea><br><br>
+
+
+	<i class="fas fa-check-circle"></i>
+	<i class="fas fa-exclamation-circle"></i>
+	<small>Error message</small>
+</div>
+
+
+
+
+					  <div class="form-control"><input type="checkbox" name="terms" id="terms"> I agree to the terms and conditions.
+		<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error message</small>
+					  </div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+					  <br>
+
+
+
+					 </fieldset>
+
+			</form></div>
+		    
+
+
+</section>
+	 </main>
+	 <footer><p><span>
+© Synthesized Hiring Technology 2020 <br>
+	Icons provided by <a href="https://icofont.com/">Icofont</a>. Background images from <a href="https://philiprogers.com/svgpatterns/">SVG Patterns Gallery</a>, <a href="https://www.svgbackgrounds.com/#flat-mountains">SVG Backgrounds</a> and
+		 <a href="https://loading.io/background/m-clouds">loading.io</a>.</span>	</p>
+
+     </footer>
+
+	 </div>
+	 <script src="js/register.js"></script>
+</body>
+</html>
